@@ -1,0 +1,40 @@
+# Assignment 6 reflection
+
+## Submitter metadata
+
+Partner 1: Angela Zhu (avz7)
+Partner 2: Aimee Li (al2474)
+
+Hours spent working on this assignment: 30 hours
+
+## Verification questions
+
+1. How many coins does your McDiver collect when running with a seed of
+   `-4004310660161599891`?
+
+   Answer: 395
+
+## Reflection questions
+
+1. Describe your "scram" strategy at a high level.  How does McDiver decide
+   which coin to collect next, and how does he ensure he always escapes in time?
+   Also describe how you came up with this strategy and why you settled on it.
+
+   Answer: Our scram strategy is to place all the nodes in the map into a priority queue
+   ordered by the best coin to distance (from the current location of McDiver) ratio.
+   We calculate if McDiver is able to go to the best node (first in priority queue) and leave
+   within stepsToGo, move to the tile, then recreate the priority queue with the new
+   location of McDiver. If McDiver is not able to get to the tile, he goes to the exit.
+
+2. Are you aware of any areas where your submission is not working as intended?
+   If so, describe the issue and what you did to try to diagnose it.  Otherwise,
+   describe how you verified that your submission fulfilled its requirements.
+
+   Answer: No. We ran the -n 30 -s 10 command and also ran several -n 30 tests to ensure
+   a consistent score. We also tested with all the special map seeds.
+
+3. Did you implement your own priority queue, or add other new classes to the
+   project?  If so, describe them here so your grader is aware of their
+   existence.
+
+   Answer: We used the Java PriorityQueue for scram.

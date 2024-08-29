@@ -1,0 +1,6 @@
+[submodule "lunar-looter"]
+	path = lunar-looter
+	url = https://github.com/angelavzhu/lunar-looter
+[submodule "seas-the-throne"]
+	path = seas-the-throne
+	url = https://github.coecis.cornell.edu/jk2582/seas-the-throne
