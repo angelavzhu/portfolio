@@ -1,4 +1,4 @@
 # portfolio
 Repository for all current personal projects.
 
-Seas The Throne was created in a Cornell repository, but the game can be provided on request.
+Seas The Throne was created privately in a Cornell repository, but can be viewed here: https://gdiac.cs.cornell.edu/gdiac/showcase/gallery/seasthethrone/
