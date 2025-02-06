@@ -8,4 +8,5 @@ Seas The Throne is an open world bullet-hell where the player must dash into the
 Lunar Looter is a multi-level stealth game where you can only see where your flashlight points. Play as an alien explorer who must weave through enemies and reconstruct their spacecraft. Download the .zip file and open the .exe to play (Windows only)! 
 
 My UI/UX portfolio contains all my design work and can be found as Portfolio.pdf.
+
 My artistic portfolio contains recent artworks and can be found in the Art folder.
